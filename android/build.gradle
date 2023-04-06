@@ -18,8 +18,8 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 31
-        versionCode 15
-        versionName "1.7"
+        versionCode 16
+        versionName "1.8"
     }
     lintOptions {
         abortOnError false
@@ -52,6 +52,6 @@ dependencies {
   implementation "android.arch.lifecycle:extensions:$lifeCycle"
   annotationProcessor "android.arch.lifecycle:compiler:$lifeCycle"
 
-  compile 'com.facebook.react:react-native:+'
+  implementation 'com.facebook.react:react-native:+'
 
 }
